@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="58dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Schedule">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:boxStrokeColor="@color/colorbg"
+        android:textColorHint="#7CB9E8"
+        android:layout_marginBottom="8dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/schedule_can_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_person_black_24dp"
+            android:inputType="text"
+            android:hint="Candidate Name"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/selectdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:text="Select Date" />
+
+        <TextView
+            android:id="@+id/set_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/selecttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/button_bg_rounded_corners"
+            android:text="Select Time" />
+
+        <TextView
+            android:id="@+id/set_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_schedule_update"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:padding="3dp"
+        android:text="Update Schedule"
+        android:textColor="@color/colorWhite"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+
+
+
+</LinearLayout>

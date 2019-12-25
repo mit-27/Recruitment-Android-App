@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "137350592165",
+    "firebase_url": "https://fireapp-e0949.firebaseio.com",
+    "project_id": "fireapp-e0949",
+    "storage_bucket": "fireapp-e0949.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137350592165:android:6001a52888336d50",
+        "android_client_info": {
+          "package_name": "com.example.recruitmentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137350592165-5rnk74c2aul8e5vejas8kc7a7db8ie4b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recruitmentapp",
+            "certificate_hash": "e117f3d9277cfb1db7c29fdfd8071f079a47997a"
+          }
+        },
+        {
+          "client_id": "137350592165-nrqtjpsq3dv3qrum5itms85ldftd5acq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjQE9RsOj2Z2NWhrcSAq55yeGbcHeaeRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137350592165-nrqtjpsq3dv3qrum5itms85ldftd5acq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
